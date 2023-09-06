@@ -1,0 +1,6 @@
+# ignore auto generated graphql methods
+src/generated/*
+src/posthog-react/generated/*
+
+# ignore config overrides
+config-overrides.js
