@@ -17,6 +17,7 @@ export type GpuRow = {
   thermalDesignPower: string | null;
   formFactor: string | null;
   availableProviders?: string | null;
+  deprecated: boolean;
 };
 
 const getProviders = (model: string | null) => {
@@ -36,19 +37,26 @@ const getProviders = (model: string | null) => {
 };
 
 const sortGpuData = (a: GpuRow, b: GpuRow) => {
+  // gpu with available providers should be first
   const providerCompare = (b.availableProviders ?? "").localeCompare(
     a.availableProviders ?? "",
   );
   if (providerCompare !== 0) return providerCompare;
 
+  // deprecated gpu should be last
+  if (a.deprecated !== b.deprecated) return a.deprecated ? 1 : -1;
+
+  // sort by memory bandwidth
   const memBandwidthCompare =
     (Number(b.memoryBandwidth) || 0) - (Number(a.memoryBandwidth) || 0);
   if (memBandwidthCompare !== 0) return memBandwidthCompare;
 
+  // sort by memory size
   const memSizeCompare =
     (Number(b.memorySize) || 0) - (Number(a.memorySize) || 0);
   if (memSizeCompare !== 0) return memSizeCompare;
 
+  // sort by model name
   return (a.model ?? "").localeCompare(b.model ?? "");
 };
 
@@ -73,6 +81,7 @@ export const getGpuData = () => {
       thermalDesignPower: row["Thermal Design Power (watts)"],
       formFactor: row["Form Factor"],
       availableProviders: getProviders(row["Model"]),
+      deprecated: row["Deprecated"] === "true",
     }),
   );
   return rows.sort(sortGpuData);
