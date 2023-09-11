@@ -478,7 +478,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "900",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "S2050",
@@ -494,7 +494,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "900",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "Quadro Plex 2200 S4",
@@ -510,7 +510,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "1200",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "S1075",
@@ -526,7 +526,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "",
     "Form Factor": "1U rack-mount external GPUs, connect via 1× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "S1070",
@@ -542,7 +542,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "800",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "S1070",
@@ -558,7 +558,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "800",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "S870",
@@ -574,7 +574,7 @@
     "CUDA Compatibility": "1",
     "Thermal Design Power (watts)": "",
     "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×16)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "K40",
@@ -590,7 +590,7 @@
     "CUDA Compatibility": "3.5",
     "Thermal Design Power (watts)": "235",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "K20X",
@@ -606,7 +606,7 @@
     "CUDA Compatibility": "3.5",
     "Thermal Design Power (watts)": "235",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "K20",
@@ -622,7 +622,7 @@
     "CUDA Compatibility": "3.5",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "Quadro Plex 2200 D2",
@@ -638,7 +638,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "",
     "Form Factor": "Deskside or 3U rack-mount external GPUs with 4 dual-link DVI outputs",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M2090",
@@ -654,7 +654,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "D870",
@@ -670,7 +670,7 @@
     "CUDA Compatibility": "1",
     "Thermal Design Power (watts)": "520",
     "Form Factor": "Deskside or 3U rack-mount external GPUs",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M2070",
@@ -686,7 +686,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M2070Q",
@@ -702,7 +702,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M2050",
@@ -718,7 +718,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M6",
@@ -734,7 +734,7 @@
     "CUDA Compatibility": "5.2",
     "Thermal Design Power (watts)": "100",
     "Form Factor": "Internal MXM GPU",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "C2075",
@@ -750,7 +750,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "C2070",
@@ -766,7 +766,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "247",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "C2050",
@@ -782,7 +782,7 @@
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "247",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "C1060",
@@ -798,7 +798,7 @@
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "187.8",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "M4",
@@ -814,7 +814,7 @@
     "CUDA Compatibility": "5.2",
     "Thermal Design Power (watts)": "75",
     "Form Factor": "Internal PCIe GPU (half-height, single-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   },
   {
     "Model": "C870",
@@ -830,6 +830,6 @@
     "CUDA Compatibility": "1",
     "Thermal Design Power (watts)": "170.9",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
-    "Deprecated": true
+    "Deprecated": "true"
   }
 ]
