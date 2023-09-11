@@ -285,36 +285,6 @@
     "Form Factor": "PCIe card (single-slot)"
   },
   {
-    "Model": "S2070",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "1536",
-    "Memory (GB)": "24",
-    "Memory Clock (MT/s)": "3",
-    "Memory Bandwidth (GB/s)": "593.6",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "4121.6",
-    "Double precision Processing Power (GFLOPS)": "2060.8",
-    "CUDA Compatibility": "2",
-    "Thermal Design Power (watts)": "900",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-  },
-  {
-    "Model": "S2050",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "1536",
-    "Memory (GB)": "12",
-    "Memory Clock (MT/s)": "3",
-    "Memory Bandwidth (GB/s)": "593.6",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "4121.6",
-    "Double precision Processing Power (GFLOPS)": "2060.8",
-    "CUDA Compatibility": "2",
-    "Thermal Design Power (watts)": "900",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-  },
-  {
     "Model": "P100 12 GB",
     "Shaders Max boost clock (MHz)": "1303",
     "Memory Bus type": "HBM2",
@@ -343,66 +313,6 @@
     "CUDA Compatibility": "3.7",
     "Thermal Design Power (watts)": "300",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
-    "Model": "Quadro Plex 2200 S4",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "2048",
-    "Memory (GB)": "16",
-    "Memory Clock (MT/s)": "1600",
-    "Memory Bandwidth (GB/s)": "409.6",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "2488.3",
-    "Double precision Processing Power (GFLOPS)": "311",
-    "CUDA Compatibility": "1.3",
-    "Thermal Design Power (watts)": "1200",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-  },
-  {
-    "Model": "S1075",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "2048",
-    "Memory (GB)": "16",
-    "Memory Clock (MT/s)": "1538.4",
-    "Memory Bandwidth (GB/s)": "394",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "2764.8",
-    "Double precision Processing Power (GFLOPS)": "345.6",
-    "CUDA Compatibility": "1.3",
-    "Thermal Design Power (watts)": "",
-    "Form Factor": "1U rack-mount external GPUs, connect via 1× PCIe (×8 or ×16)"
-  },
-  {
-    "Model": "S1070",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "2048",
-    "Memory (GB)": "16",
-    "Memory Clock (MT/s)": "1538.4",
-    "Memory Bandwidth (GB/s)": "394",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "2764.8",
-    "Double precision Processing Power (GFLOPS)": "345.6",
-    "CUDA Compatibility": "1.3",
-    "Thermal Design Power (watts)": "800",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-  },
-  {
-    "Model": "S1070",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "2048",
-    "Memory (GB)": "16",
-    "Memory Clock (MT/s)": "1538.4",
-    "Memory Bandwidth (GB/s)": "394",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "2488.3",
-    "Double precision Processing Power (GFLOPS)": "311",
-    "CUDA Compatibility": "1.3",
-    "Thermal Design Power (watts)": "800",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
   },
   {
     "Model": "P40",
@@ -480,21 +390,6 @@
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
   },
   {
-    "Model": "S870",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "1536",
-    "Memory (GB)": "6",
-    "Memory Clock (MT/s)": "1600",
-    "Memory Bandwidth (GB/s)": "307.2",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "1382.4",
-    "Double precision Processing Power (GFLOPS)": "No",
-    "CUDA Compatibility": "1",
-    "Thermal Design Power (watts)": "",
-    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×16)"
-  },
-  {
     "Model": "L4",
     "Shaders Max boost clock (MHz)": "2040",
     "Memory Bus type": "GDDR6",
@@ -523,66 +418,6 @@
     "CUDA Compatibility": "5.2",
     "Thermal Design Power (watts)": "250",
     "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
-    "Model": "K40",
-    "Shaders Max boost clock (MHz)": "875",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "384",
-    "Memory (GB)": "12",
-    "Memory Clock (MT/s)": "6000",
-    "Memory Bandwidth (GB/s)": "288",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "5040",
-    "Double precision Processing Power (GFLOPS)": "1680",
-    "CUDA Compatibility": "3.5",
-    "Thermal Design Power (watts)": "235",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
-    "Model": "K20X",
-    "Shaders Max boost clock (MHz)": "?",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "384",
-    "Memory (GB)": "6",
-    "Memory Clock (MT/s)": "5200",
-    "Memory Bandwidth (GB/s)": "250",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "3935",
-    "Double precision Processing Power (GFLOPS)": "1312",
-    "CUDA Compatibility": "3.5",
-    "Thermal Design Power (watts)": "235",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
-    "Model": "K20",
-    "Shaders Max boost clock (MHz)": "758",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "320",
-    "Memory (GB)": "5",
-    "Memory Clock (MT/s)": "5200",
-    "Memory Bandwidth (GB/s)": "208",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "3524",
-    "Double precision Processing Power (GFLOPS)": "1175",
-    "CUDA Compatibility": "3.5",
-    "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
-    "Model": "Quadro Plex 2200 D2",
-    "Shaders Max boost clock (MHz)": "—",
-    "Memory Bus type": "GDDR3",
-    "Memory Bus Width (bit)": "1024",
-    "Memory (GB)": "8",
-    "Memory Clock (MT/s)": "1600",
-    "Memory Bandwidth (GB/s)": "204.8",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "1244.2",
-    "Double precision Processing Power (GFLOPS)": "155.5",
-    "CUDA Compatibility": "1.3",
-    "Thermal Design Power (watts)": "",
-    "Form Factor": "Deskside or 3U rack-mount external GPUs with 4 dual-link DVI outputs"
   },
   {
     "Model": "A2",
@@ -630,6 +465,182 @@
     "Form Factor": "PCIe card"
   },
   {
+    "Model": "S2070",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "1536",
+    "Memory (GB)": "24",
+    "Memory Clock (MT/s)": "3",
+    "Memory Bandwidth (GB/s)": "593.6",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "4121.6",
+    "Double precision Processing Power (GFLOPS)": "2060.8",
+    "CUDA Compatibility": "2",
+    "Thermal Design Power (watts)": "900",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "S2050",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "1536",
+    "Memory (GB)": "12",
+    "Memory Clock (MT/s)": "3",
+    "Memory Bandwidth (GB/s)": "593.6",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "4121.6",
+    "Double precision Processing Power (GFLOPS)": "2060.8",
+    "CUDA Compatibility": "2",
+    "Thermal Design Power (watts)": "900",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "Quadro Plex 2200 S4",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "2048",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1600",
+    "Memory Bandwidth (GB/s)": "409.6",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "2488.3",
+    "Double precision Processing Power (GFLOPS)": "311",
+    "CUDA Compatibility": "1.3",
+    "Thermal Design Power (watts)": "1200",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "S1075",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "2048",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1538.4",
+    "Memory Bandwidth (GB/s)": "394",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "2764.8",
+    "Double precision Processing Power (GFLOPS)": "345.6",
+    "CUDA Compatibility": "1.3",
+    "Thermal Design Power (watts)": "",
+    "Form Factor": "1U rack-mount external GPUs, connect via 1× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "S1070",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "2048",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1538.4",
+    "Memory Bandwidth (GB/s)": "394",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "2764.8",
+    "Double precision Processing Power (GFLOPS)": "345.6",
+    "CUDA Compatibility": "1.3",
+    "Thermal Design Power (watts)": "800",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "S1070",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "2048",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1538.4",
+    "Memory Bandwidth (GB/s)": "394",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "2488.3",
+    "Double precision Processing Power (GFLOPS)": "311",
+    "CUDA Compatibility": "1.3",
+    "Thermal Design Power (watts)": "800",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "S870",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "1536",
+    "Memory (GB)": "6",
+    "Memory Clock (MT/s)": "1600",
+    "Memory Bandwidth (GB/s)": "307.2",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "1382.4",
+    "Double precision Processing Power (GFLOPS)": "No",
+    "CUDA Compatibility": "1",
+    "Thermal Design Power (watts)": "",
+    "Form Factor": "1U rack-mount external GPUs, connect via 2× PCIe (×16)",
+    "Deprecated": true
+  },
+  {
+    "Model": "K40",
+    "Shaders Max boost clock (MHz)": "875",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "12",
+    "Memory Clock (MT/s)": "6000",
+    "Memory Bandwidth (GB/s)": "288",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "5040",
+    "Double precision Processing Power (GFLOPS)": "1680",
+    "CUDA Compatibility": "3.5",
+    "Thermal Design Power (watts)": "235",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
+  },
+  {
+    "Model": "K20X",
+    "Shaders Max boost clock (MHz)": "?",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "6",
+    "Memory Clock (MT/s)": "5200",
+    "Memory Bandwidth (GB/s)": "250",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "3935",
+    "Double precision Processing Power (GFLOPS)": "1312",
+    "CUDA Compatibility": "3.5",
+    "Thermal Design Power (watts)": "235",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
+  },
+  {
+    "Model": "K20",
+    "Shaders Max boost clock (MHz)": "758",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "320",
+    "Memory (GB)": "5",
+    "Memory Clock (MT/s)": "5200",
+    "Memory Bandwidth (GB/s)": "208",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "3524",
+    "Double precision Processing Power (GFLOPS)": "1175",
+    "CUDA Compatibility": "3.5",
+    "Thermal Design Power (watts)": "225",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
+  },
+  {
+    "Model": "Quadro Plex 2200 D2",
+    "Shaders Max boost clock (MHz)": "—",
+    "Memory Bus type": "GDDR3",
+    "Memory Bus Width (bit)": "1024",
+    "Memory (GB)": "8",
+    "Memory Clock (MT/s)": "1600",
+    "Memory Bandwidth (GB/s)": "204.8",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "1244.2",
+    "Double precision Processing Power (GFLOPS)": "155.5",
+    "CUDA Compatibility": "1.3",
+    "Thermal Design Power (watts)": "",
+    "Form Factor": "Deskside or 3U rack-mount external GPUs with 4 dual-link DVI outputs",
+    "Deprecated": true
+  },
+  {
     "Model": "M2090",
     "Shaders Max boost clock (MHz)": "—",
     "Memory Bus type": "GDDR5",
@@ -642,7 +653,8 @@
     "Double precision Processing Power (GFLOPS)": "665.6",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "D870",
@@ -657,7 +669,8 @@
     "Double precision Processing Power (GFLOPS)": "No",
     "CUDA Compatibility": "1",
     "Thermal Design Power (watts)": "520",
-    "Form Factor": "Deskside or 3U rack-mount external GPUs"
+    "Form Factor": "Deskside or 3U rack-mount external GPUs",
+    "Deprecated": true
   },
   {
     "Model": "M2070",
@@ -672,7 +685,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "M2070Q",
@@ -687,7 +701,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "M2050",
@@ -702,7 +717,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "M6",
@@ -717,7 +733,8 @@
     "Double precision Processing Power (GFLOPS)": "100.9",
     "CUDA Compatibility": "5.2",
     "Thermal Design Power (watts)": "100",
-    "Form Factor": "Internal MXM GPU"
+    "Form Factor": "Internal MXM GPU",
+    "Deprecated": true
   },
   {
     "Model": "C2075",
@@ -732,7 +749,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "C2070",
@@ -747,7 +765,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "247",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "C2050",
@@ -762,7 +781,8 @@
     "Double precision Processing Power (GFLOPS)": "515.2",
     "CUDA Compatibility": "2",
     "Thermal Design Power (watts)": "247",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "C1060",
@@ -777,7 +797,8 @@
     "Double precision Processing Power (GFLOPS)": "77.76",
     "CUDA Compatibility": "1.3",
     "Thermal Design Power (watts)": "187.8",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   },
   {
     "Model": "M4",
@@ -792,7 +813,8 @@
     "Double precision Processing Power (GFLOPS)": "68.61",
     "CUDA Compatibility": "5.2",
     "Thermal Design Power (watts)": "75",
-    "Form Factor": "Internal PCIe GPU (half-height, single-slot)"
+    "Form Factor": "Internal PCIe GPU (half-height, single-slot)",
+    "Deprecated": true
   },
   {
     "Model": "C870",
@@ -807,6 +829,7 @@
     "Double precision Processing Power (GFLOPS)": "No",
     "CUDA Compatibility": "1",
     "Thermal Design Power (watts)": "170.9",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": true
   }
 ]
