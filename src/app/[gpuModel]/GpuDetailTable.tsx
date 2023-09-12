@@ -77,7 +77,8 @@ export const GpuDetailTable = ({
       columnHelper.accessor("region", {
         cell: (info) => (
           <Flex alignItems="center" gap={1}>
-            <RegionFlag region={info.getValue() ?? ""} /> {info.getValue()}
+            <RegionFlag region={info.getValue()} />{" "}
+            {info.getValue() || "unknown"}
           </Flex>
         ),
         header: "Region",
