@@ -90,21 +90,6 @@
     "Form Factor": "PCIe card (dual-slot)"
   },
   {
-    "Model": "A100 20",
-    "Shaders Max boost clock (MHz)": "1410",
-    "Memory Bus type": "HBM2",
-    "Memory Bus Width (bit)": "5120",
-    "Memory (GB)": "20",
-    "Memory Clock (MT/s)": "1215",
-    "Memory Bandwidth (GB/s)": "1555",
-    "Half precision Processing Power (GFLOPS)": "312000",
-    "Single precision Processing Power (GFLOPS)": "19500",
-    "Double precision Processing Power (GFLOPS)": "9700",
-    "CUDA Compatibility": "8",
-    "Thermal Design Power (watts)": "250",
-    "Form Factor": "PCIe card (dual-slot)"
-  },
-  {
     "Model": "A30",
     "Shaders Max boost clock (MHz)": "1440",
     "Memory Bus type": "HBM2",
