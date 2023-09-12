@@ -1,9 +1,11 @@
 import awsData from "./aws.json";
 import cwData from "./coreweave.json";
+import modalData from "./modal.json";
 
 enum ProviderKind {
   AWS = "AWS",
   COREWEAVE = "CoreWeave",
+  MODAL = "Modal",
 }
 
 export type GpuDetailRow = {
@@ -29,57 +31,44 @@ export type GpuDetailRow = {
   windowsSpotMinimumCost: string | null;
 };
 
+const parseStandardRow =
+  (provider: ProviderKind) =>
+  (row: Record<string, string | null>, i: number): GpuDetailRow => ({
+    id: provider + i.toString(),
+    kind: provider,
+    cpus: row["CPUs"],
+    gpuModel: row["GPU model"],
+    gpuModelStandardized: row["GPU model Standardized"],
+    gpus: row["GPUs"],
+    instance: row["Instance"],
+    instanceMemory: row["Instance Memory"],
+    instanceName: row["Instance Name"],
+    instanceStorage: row["Instance Storage"],
+    linuxReservedCost: row["Linux Reserved cost"],
+    linuxSpotMaximumCost: row["Linux Spot Maximum cost"],
+    linuxSpotMinimumCost: row["Linux Spot Minimum cost"],
+    networkPerformance: row["Network Performance"],
+    onDemand: row["On Demand"],
+    region: row["Region"],
+    windowsOnDemandCost: row["Windows On Demand cost"],
+    windowsReservedCost: row["Windows Reserved cost"],
+    windowsSpotMaximumCost: row["Windows Spot Maximum cost"],
+    windowsSpotMinimumCost: row["Windows Spot Minimum cost"],
+  });
+
 export const getGpuDetailData = () => {
   const rows = (awsData as Record<string, string | null>[]).map(
-    (row, i): GpuDetailRow => ({
-      id: ProviderKind.AWS + i.toString(),
-      kind: ProviderKind.AWS,
-      cpus: row["CPUs"],
-      gpuModel: row["GPU model"],
-      gpuModelStandardized: row["GPU model Standardized"],
-      gpus: row["GPUs"],
-      instance: row["Instance"],
-      instanceMemory: row["Instance Memory"],
-      instanceName: row["Instance Name"],
-      instanceStorage: row["Instance Storage"],
-      linuxReservedCost: row["Linux Reserved cost"],
-      linuxSpotMaximumCost: row["Linux Spot Maximum cost"],
-      linuxSpotMinimumCost: row["Linux Spot Minimum cost"],
-      networkPerformance: row["Network Performance"],
-      onDemand: row["On Demand"],
-      region: row["Region"],
-      windowsOnDemandCost: row["Windows On Demand cost"],
-      windowsReservedCost: row["Windows Reserved cost"],
-      windowsSpotMaximumCost: row["Windows Spot Maximum cost"],
-      windowsSpotMinimumCost: row["Windows Spot Minimum cost"],
-    }),
+    parseStandardRow(ProviderKind.AWS),
   );
 
   const cwRows = (cwData as Record<string, string | null>[]).map(
-    (row, i): GpuDetailRow => ({
-      id: ProviderKind.COREWEAVE + i.toString(),
-      kind: ProviderKind.COREWEAVE,
-      cpus: row["CPUs"],
-      gpuModel: row["GPU model"],
-      gpuModelStandardized: row["GPU model Standardized"],
-      gpus: row["GPUs"],
-      instance: row["Instance"],
-      instanceMemory: row["Instance Memory"],
-      instanceName: row["Instance Name"],
-      instanceStorage: row["Instance Storage"],
-      linuxReservedCost: row["Linux Reserved cost"],
-      linuxSpotMaximumCost: row["Linux Spot Maximum cost"],
-      linuxSpotMinimumCost: row["Linux Spot Minimum cost"],
-      networkPerformance: row["Network Performance"],
-      onDemand: row["On Demand"],
-      region: row["Region"],
-      windowsOnDemandCost: row["Windows On Demand cost"],
-      windowsReservedCost: row["Windows Reserved cost"],
-      windowsSpotMaximumCost: row["Windows Spot Maximum cost"],
-      windowsSpotMinimumCost: row["Windows Spot Minimum cost"],
-    }),
+    parseStandardRow(ProviderKind.COREWEAVE),
   );
-  return [...rows, ...cwRows];
+
+  const modalRows = (modalData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.MODAL),
+  );
+  return [...rows, ...cwRows, ...modalRows];
 };
 
 export const getUniqueGpuModels = () => {
