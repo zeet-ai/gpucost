@@ -1,6 +1,6 @@
 "use client";
 
-import { Flex, TableProps } from "@chakra-ui/react";
+import { Code, Flex, TableProps } from "@chakra-ui/react";
 import { createColumnHelper } from "@tanstack/react-table";
 import * as React from "react";
 import { Table } from "@/components/Table";
@@ -49,6 +49,7 @@ export const GpuDetailTable = ({
       columnHelper.accessor("instance", {
         header: "Instance Type",
         minSize: 200,
+        cell: (info) => <Code fontSize="xs">{info.getValue()}</Code>,
       }),
       columnHelper.accessor("instanceName", {
         header: "Instance Name",

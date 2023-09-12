@@ -44,7 +44,7 @@ export const DropdownMenu = ({
           {selected?.label || "Select an option"}
         </Flex>
       </MenuButton>
-      <MenuList maxHeight="calc(100vh - 150px)" overflow="auto">
+      <MenuList maxHeight="calc(100vh - 200px)" overflow="auto">
         <MenuGroup title={label} mx="3" my="1">
           {options.map((option) => {
             return (
