@@ -44,16 +44,16 @@ const sortGpuData = (a: GpuRow, b: GpuRow) => {
   // deprecated gpu should be last
   if (a.deprecated !== b.deprecated) return a.deprecated ? 1 : -1;
 
-  // sort by memory size
-  const memSizeCompare =
-    (Number(b.memorySize) || 0) - (Number(a.memorySize) || 0);
-  if (memSizeCompare !== 0) return memSizeCompare;
-
   // sort by FLOP
   const flopCompare =
     (Number(b.processingPowerHalfPrecision) || 0) -
     (Number(a.processingPowerHalfPrecision) || 0);
   if (flopCompare !== 0) return flopCompare;
+
+  // sort by memory size
+  const memSizeCompare =
+    (Number(b.memorySize) || 0) - (Number(a.memorySize) || 0);
+  if (memSizeCompare !== 0) return memSizeCompare;
 
   // sort by memory bandwidth
   const memBandwidthCompare =
