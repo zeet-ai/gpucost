@@ -13,6 +13,7 @@ export enum ProviderKind {
   LAMBDALABS = "LambdaLabs",
   RUNPOD = "RunPod",
   AZURE = "Azure",
+  GCP = "GCP",
   OCI = "OCI",
 }
 

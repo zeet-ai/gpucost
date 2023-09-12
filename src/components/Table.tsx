@@ -393,10 +393,12 @@ export const Table = <Row,>({
                     onMouseEnter={() => setHoveredCol(header.id)}
                     onMouseLeave={() => setHoveredCol(null)}
                   >
-                    {flexRender(
-                      header.column.columnDef.header,
-                      header.getContext(),
-                    )}
+                    <Text noOfLines={1} wordBreak="break-all">
+                      {flexRender(
+                        header.column.columnDef.header,
+                        header.getContext(),
+                      )}
+                    </Text>
                     <SortIcon header={header} />
                   </Flex>
                   <Box p="2" pt="0" mt="-3">
