@@ -2,12 +2,14 @@ import awsData from "./aws.json";
 import cwData from "./coreweave.json";
 import modalData from "./modal.json";
 import lambdaLabsData from "./lambdalabs.json";
+import runpodData from "./runpod.json";
 
 export enum ProviderKind {
   AWS = "AWS",
   COREWEAVE = "CoreWeave",
   MODAL = "Modal",
   LAMBDALABS = "LambdaLabs",
+  RUNPOD = "RunPod",
 }
 
 export type GpuDetailRow = {
@@ -75,7 +77,11 @@ export const getGpuDetailData = () => {
     lambdaLabsData as Record<string, string | null>[]
   ).map(parseStandardRow(ProviderKind.LAMBDALABS));
 
-  return [...rows, ...cwRows, ...modalRows, ...lambdaLabsRows];
+  const runpodRows = (runpodData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.RUNPOD),
+  );
+
+  return [...rows, ...cwRows, ...modalRows, ...lambdaLabsRows, ...runpodRows];
 };
 
 export const getUniqueGpuModels = () => {
