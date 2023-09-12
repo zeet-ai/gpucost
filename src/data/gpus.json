@@ -476,7 +476,7 @@
     "Single precision Processing Power (GFLOPS)": "7119",
     "Double precision Processing Power (GFLOPS)": "222.5",
     "CUDA Compatibility": "7.5",
-    "Thermal Design Power (watts)": "100",
+    "Thermal Design Power (watts)": "125",
     "Form Factor": "PCIe"
   },
   {
@@ -491,7 +491,22 @@
     "Single precision Processing Power (GFLOPS)": "11151",
     "Double precision Processing Power (GFLOPS)": "348.5",
     "CUDA Compatibility": "7.5",
-    "Thermal Design Power (watts)": "125",
+    "Thermal Design Power (watts)": "230",
+    "Form Factor": "PCIe"
+  },
+  {
+    "Model": "Quadro RTX 6000",
+    "Shaders Max boost clock (MHz)": "1770",
+    "Memory Bus type": "GDDR6",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "24",
+    "Memory Clock (MT/s)": "1770",
+    "Memory Bandwidth (GB/s)": "672",
+    "Half precision Processing Power (GFLOPS)": "",
+    "Single precision Processing Power (GFLOPS)": "16312",
+    "Double precision Processing Power (GFLOPS)": "509.8",
+    "CUDA Compatibility": "7.5",
+    "Thermal Design Power (watts)": "260",
     "Form Factor": "PCIe"
   },
   {

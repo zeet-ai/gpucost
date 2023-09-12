@@ -14,7 +14,7 @@
     "Network Performance": "",
     "On Demand": "$3.73 hourly",
     "Region": "",
-    "Windows On Demand cost": "$3.73 hourly",
+    "Windows On Demand cost": "",
     "Windows Reserved cost": "",
     "Windows Spot Maximum cost": "",
     "Windows Spot Minimum cost": ""
@@ -34,7 +34,7 @@
     "Network Performance": "",
     "On Demand": "$5.59 hourly",
     "Region": "",
-    "Windows On Demand cost": "$5.59 hourly",
+    "Windows On Demand cost": "",
     "Windows Reserved cost": "",
     "Windows Spot Maximum cost": "",
     "Windows Spot Minimum cost": ""
@@ -54,7 +54,7 @@
     "Network Performance": "",
     "On Demand": "$1.10 hourly",
     "Region": "",
-    "Windows On Demand cost": "$1.10 hourly",
+    "Windows On Demand cost": "",
     "Windows Reserved cost": "",
     "Windows Spot Maximum cost": "",
     "Windows Spot Minimum cost": ""
@@ -74,7 +74,7 @@
     "Network Performance": "",
     "On Demand": "$0.59 hourly",
     "Region": "",
-    "Windows On Demand cost": "$0.59 hourly",
+    "Windows On Demand cost": "",
     "Windows Reserved cost": "",
     "Windows Spot Maximum cost": "",
     "Windows Spot Minimum cost": ""
