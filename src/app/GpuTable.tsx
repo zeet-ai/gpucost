@@ -51,15 +51,15 @@ export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
       }),
       columnHelper.accessor("processingPowerHalfPrecision", {
         header: "Half Precision Processing Power (GFLOPS)",
-        minSize: 350,
+        minSize: 200,
       }),
       columnHelper.accessor("processingPowerSinglePrecision", {
         header: "Single Precision Processing Power (GFLOPS)",
-        minSize: 350,
+        minSize: 200,
       }),
       columnHelper.accessor("processingPowerDoublePrecision", {
         header: "Double Precision Processing Power (GFLOPS)",
-        minSize: 350,
+        minSize: 200,
       }),
       columnHelper.accessor("cudaCompatiblity", {
         header: "CUDA Compatibility",
@@ -75,7 +75,7 @@ export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
       }),
       columnHelper.accessor("availableProviders", {
         header: "Available Providers",
-        minSize: 400,
+        minSize: 600,
         cell: (info) => <ProvidersCell info={info} />,
       }),
     ],
@@ -92,7 +92,7 @@ export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
     memorySize: true,
     memoryBandwidth: true,
     memoryClock: false,
-    processingPowerHalfPrecision: false,
+    processingPowerHalfPrecision: true,
     processingPowerSinglePrecision: false,
     processingPowerDoublePrecision: true,
     cudaCompatiblity: false,
