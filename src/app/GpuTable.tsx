@@ -1,13 +1,13 @@
 "use client";
 
 import { GpuRow } from "@/data/gpus";
-import { Flex, Icon, TableProps } from "@chakra-ui/react";
+import { TableProps } from "@chakra-ui/react";
 import { VisibilityState, createColumnHelper } from "@tanstack/react-table";
 import * as React from "react";
-import { Table } from "./Table";
-import { SiAmazonaws } from "react-icons/si";
+import { Table } from "@/components/Table";
 import Link from "next/link";
 import { formatGpuModel } from "@/shared/formatters";
+import { ProvidersCell } from "@/components/ProvidersCell";
 
 export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
   const columnHelper = createColumnHelper<GpuRow>();
@@ -75,13 +75,8 @@ export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
       }),
       columnHelper.accessor("availableProviders", {
         header: "Available Providers",
-        minSize: 300,
-        cell: (info) =>
-          info.getValue() && (
-            <Flex alignItems="center" gap="1">
-              <Icon as={SiAmazonaws} boxSize="1.25rem" /> {info.getValue()}
-            </Flex>
-          ),
+        minSize: 400,
+        cell: (info) => <ProvidersCell info={info} />,
       }),
     ],
     [columnHelper],
@@ -104,6 +99,7 @@ export const GpuTable = ({ data }: { data: GpuRow[] } & TableProps) => {
     thermalDesignPower: false,
     formFactor: false,
     availableProviders: true,
+    deprecated: false,
   };
 
   return (

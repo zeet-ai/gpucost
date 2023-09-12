@@ -1,4 +1,4 @@
-import { GpuTable } from "@/components/GpuTable";
+import { GpuTable } from "@/app/GpuTable";
 import { getGpuData } from "@/data/gpus";
 
 export default function Home() {

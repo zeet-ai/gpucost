@@ -1,5 +1,5 @@
 import { Icon, IconProps } from "@chakra-ui/react";
-import { Twemoji } from "./Twemoji";
+import { Twemoji } from "../../components/Twemoji";
 import { fromProvider } from "cloud-regions-country-flags";
 
 const RegionFlag = ({ region, ...props }: { region: string } & IconProps) => {

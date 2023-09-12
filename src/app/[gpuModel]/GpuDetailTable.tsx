@@ -1,17 +1,17 @@
 "use client";
 
-import { Box, Flex, Icon, TableProps } from "@chakra-ui/react";
+import { Flex, TableProps } from "@chakra-ui/react";
 import { createColumnHelper } from "@tanstack/react-table";
 import * as React from "react";
-import { Table } from "./Table";
+import { Table } from "@/components/Table";
 import { GpuDetailRow, getUniqueGpuModels } from "@/data/providers";
-import { SiAmazonaws } from "react-icons/si";
 import RegionFlag from "./Flag";
 import { useRouter, useSearchParams } from "next/navigation";
-import { DropdownMenu } from "./DropdownMenu";
-import { CostCell, CostPeriod, costPeriodOptions } from "./CostCell";
+import { DropdownMenu } from "@/components/DropdownMenu";
+import { CostCell, CostPeriod, costPeriodOptions } from "@/components/CostCell";
 import { formatGpuModel } from "@/shared/formatters";
 import { useSearch } from "@/context/Search";
+import { ProviderCell } from "@/components/ProviderCell";
 
 export const GpuDetailTable = ({
   data,
@@ -26,14 +26,7 @@ export const GpuDetailTable = ({
     () => [
       columnHelper.accessor((row): string | null => String(row.kind), {
         id: "kind",
-        cell: (info) => (
-          <Flex alignItems="center" gap="1">
-            <Icon as={SiAmazonaws} boxSize="1.25rem" /> {info.getValue()}
-            <Box hidden>
-              {formatGpuModel(gpuModel)} instance pricing and availability
-            </Box>
-          </Flex>
-        ),
+        cell: (info) => <ProviderCell info={info} gpuModel={gpuModel} />,
         header: "Provider Name",
         minSize: 100,
       }),

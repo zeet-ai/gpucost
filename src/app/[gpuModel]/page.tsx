@@ -1,4 +1,4 @@
-import { GpuDetailTable } from "@/components/GpuDetailTable";
+import { GpuDetailTable } from "@/app/[gpuModel]/GpuDetailTable";
 import { getGpuDetailData, getUniqueGpuModels } from "@/data/providers";
 import { formatGpuModel } from "@/shared/formatters";
 import { Metadata, ResolvingMetadata } from "next";

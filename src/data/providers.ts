@@ -3,7 +3,7 @@ import cwData from "./coreweave.json";
 import modalData from "./modal.json";
 import lambdaLabsData from "./lambdalabs.json";
 
-enum ProviderKind {
+export enum ProviderKind {
   AWS = "AWS",
   COREWEAVE = "CoreWeave",
   MODAL = "Modal",
