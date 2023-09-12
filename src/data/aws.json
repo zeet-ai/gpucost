@@ -7282,7 +7282,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7302,7 +7302,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7322,7 +7322,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7342,7 +7342,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7362,7 +7362,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7382,7 +7382,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7402,7 +7402,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7422,7 +7422,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7442,7 +7442,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7462,7 +7462,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7482,7 +7482,7 @@
   {
     "CPUs": "64 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "8",
     "Instance": "p3.16xlarge",
     "Instance Memory": "488.0 GiB",
@@ -7502,7 +7502,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7522,7 +7522,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7542,7 +7542,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7562,7 +7562,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7582,7 +7582,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7602,7 +7602,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7622,7 +7622,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7642,7 +7642,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7662,7 +7662,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7682,7 +7682,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7702,7 +7702,7 @@
   {
     "CPUs": "8 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "1",
     "Instance": "p3.2xlarge",
     "Instance Memory": "61.0 GiB",
@@ -7722,7 +7722,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7742,7 +7742,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7762,7 +7762,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7782,7 +7782,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7802,7 +7802,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7822,7 +7822,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7842,7 +7842,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7862,7 +7862,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7882,7 +7882,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7902,7 +7902,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7922,7 +7922,7 @@
   {
     "CPUs": "32 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 16 NVLINK",
     "GPUs": "4",
     "Instance": "p3.8xlarge",
     "Instance Memory": "244.0 GiB",
@@ -7942,7 +7942,7 @@
   {
     "CPUs": "96 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 32 NVLINK",
     "GPUs": "8",
     "Instance": "p3dn.24xlarge",
     "Instance Memory": "768.0 GiB",
@@ -7962,7 +7962,7 @@
   {
     "CPUs": "96 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 32 NVLINK",
     "GPUs": "8",
     "Instance": "p3dn.24xlarge",
     "Instance Memory": "768.0 GiB",
@@ -7982,7 +7982,7 @@
   {
     "CPUs": "96 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 32 NVLINK",
     "GPUs": "8",
     "Instance": "p3dn.24xlarge",
     "Instance Memory": "768.0 GiB",
@@ -8002,7 +8002,7 @@
   {
     "CPUs": "96 vCPUs",
     "GPU model": "NVIDIA Tesla V100",
-    "GPU model Standardized": "V100",
+    "GPU model Standardized": "V100 32 NVLINK",
     "GPUs": "8",
     "Instance": "p3dn.24xlarge",
     "Instance Memory": "768.0 GiB",
@@ -8162,7 +8162,7 @@
   {
     "CPUs": "192 vCPUs",
     "GPU model": "NVIDIA H100",
-    "GPU model Standardized": "H100",
+    "GPU model Standardized": "H100 SXM",
     "GPUs": "8",
     "Instance": "p5.48xlarge",
     "Instance Memory": "2048.0 GiB",
@@ -8182,7 +8182,7 @@
   {
     "CPUs": "192 vCPUs",
     "GPU model": "NVIDIA H100",
-    "GPU model Standardized": "H100",
+    "GPU model Standardized": "H100 SXM",
     "GPUs": "8",
     "Instance": "p5.48xlarge",
     "Instance Memory": "2048.0 GiB",

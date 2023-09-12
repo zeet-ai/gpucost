@@ -36,13 +36,13 @@
     "Memory Bus Width (bit)": "5120",
     "Memory (GB)": "80",
     "Memory Clock (MT/s)": "1215",
-    "Memory Bandwidth (GB/s)": "1555",
+    "Memory Bandwidth (GB/s)": "2039",
     "Half precision Processing Power (GFLOPS)": "312000",
     "Single precision Processing Power (GFLOPS)": "19500",
     "Double precision Processing Power (GFLOPS)": "9700",
     "CUDA Compatibility": "8",
     "Thermal Design Power (watts)": "250",
-    "Form Factor": "PCIe card (dual-slot)"
+    "Form Factor": "SXM"
   },
   {
     "Model": "A100 40 NVLINK",
@@ -57,7 +57,7 @@
     "Double precision Processing Power (GFLOPS)": "9700",
     "CUDA Compatibility": "8",
     "Thermal Design Power (watts)": "250",
-    "Form Factor": "PCIe card (dual-slot)"
+    "Form Factor": "SXM"
   },
   {
     "Model": "A100 80",
@@ -66,7 +66,7 @@
     "Memory Bus Width (bit)": "5120",
     "Memory (GB)": "80",
     "Memory Clock (MT/s)": "1215",
-    "Memory Bandwidth (GB/s)": "1555",
+    "Memory Bandwidth (GB/s)": "1935",
     "Half precision Processing Power (GFLOPS)": "312000",
     "Single precision Processing Power (GFLOPS)": "19500",
     "Double precision Processing Power (GFLOPS)": "9700",
@@ -105,21 +105,6 @@
     "Form Factor": "PCIe card (dual-slot)"
   },
   {
-    "Model": "V100s",
-    "Shaders Max boost clock (MHz)": "",
-    "Memory Bus type": "HBM2",
-    "Memory Bus Width (bit)": "",
-    "Memory (GB)": "32",
-    "Memory Clock (MT/s)": "",
-    "Memory Bandwidth (GB/s)": "1134",
-    "Half precision Processing Power (GFLOPS)": "32710",
-    "Single precision Processing Power (GFLOPS)": "16400",
-    "Double precision Processing Power (GFLOPS)": "8200",
-    "CUDA Compatibility": "",
-    "Thermal Design Power (watts)": "250",
-    "Form Factor": ""
-  },
-  {
     "Model": "A30",
     "Shaders Max boost clock (MHz)": "1440",
     "Memory Bus type": "HBM2",
@@ -135,22 +120,22 @@
     "Form Factor": "PCIe card (dual-slot)"
   },
   {
-    "Model": "V100",
-    "Shaders Max boost clock (MHz)": "1370",
-    "Memory Bus type": "HBM3",
+    "Model": "V100 32 NVLINK",
+    "Shaders Max boost clock (MHz)": "1455",
+    "Memory Bus type": "HBM2",
     "Memory Bus Width (bit)": "4096",
     "Memory (GB)": "32",
     "Memory Clock (MT/s)": "1750",
     "Memory Bandwidth (GB/s)": "900",
-    "Half precision Processing Power (GFLOPS)": "112224",
-    "Single precision Processing Power (GFLOPS)": "14028",
-    "Double precision Processing Power (GFLOPS)": "7014",
+    "Half precision Processing Power (GFLOPS)": "119192",
+    "Single precision Processing Power (GFLOPS)": "14899",
+    "Double precision Processing Power (GFLOPS)": "7450",
     "CUDA Compatibility": "7",
-    "Thermal Design Power (watts)": "250",
-    "Form Factor": "PCIe card"
+    "Thermal Design Power (watts)": "350",
+    "Form Factor": "SXM card"
   },
   {
-    "Model": "V100 mezzanine",
+    "Model": "V100 16 NVLINK",
     "Shaders Max boost clock (MHz)": "1455",
     "Memory Bus type": "HBM2",
     "Memory Bus Width (bit)": "4096",
@@ -163,6 +148,66 @@
     "CUDA Compatibility": "7",
     "Thermal Design Power (watts)": "300",
     "Form Factor": "SXM card"
+  },
+  {
+    "Model": "V100 32",
+    "Shaders Max boost clock (MHz)": "1370",
+    "Memory Bus type": "HBM2",
+    "Memory Bus Width (bit)": "4096",
+    "Memory (GB)": "32",
+    "Memory Clock (MT/s)": "1750",
+    "Memory Bandwidth (GB/s)": "900",
+    "Half precision Processing Power (GFLOPS)": "112224",
+    "Single precision Processing Power (GFLOPS)": "14028",
+    "Double precision Processing Power (GFLOPS)": "7014",
+    "CUDA Compatibility": "7",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": "PCIe card"
+  },
+  {
+    "Model": "V100 16",
+    "Shaders Max boost clock (MHz)": "1370",
+    "Memory Bus type": "HBM2",
+    "Memory Bus Width (bit)": "4096",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1750",
+    "Memory Bandwidth (GB/s)": "900",
+    "Half precision Processing Power (GFLOPS)": "112224",
+    "Single precision Processing Power (GFLOPS)": "14028",
+    "Double precision Processing Power (GFLOPS)": "7014",
+    "CUDA Compatibility": "7",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": "PCIe card"
+  },
+  {
+    "Model": "V100 FHHL",
+    "Shaders Max boost clock (MHz)": "1290",
+    "Memory Bus type": "HBM2",
+    "Memory Bus Width (bit)": "4096",
+    "Memory (GB)": "16",
+    "Memory Clock (MT/s)": "1620",
+    "Memory Bandwidth (GB/s)": "829.44",
+    "Half precision Processing Power (GFLOPS)": "105680",
+    "Single precision Processing Power (GFLOPS)": "13210",
+    "Double precision Processing Power (GFLOPS)": "6605",
+    "CUDA Compatibility": "7",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": "PCIe FHHL card"
+  },
+  {
+    "Model": "V100s",
+    "Shaders Max boost clock (MHz)": "",
+    "Memory Bus type": "HBM2",
+    "Memory Bus Width (bit)": "",
+    "Memory (GB)": "32",
+    "Memory Clock (MT/s)": "",
+    "Memory Bandwidth (GB/s)": "1134",
+    "Half precision Processing Power (GFLOPS)": "32710",
+    "Single precision Processing Power (GFLOPS)": "16400",
+    "Double precision Processing Power (GFLOPS)": "8200",
+    "CUDA Compatibility": "",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": ""
   },
   {
     "Model": "L40",
@@ -180,21 +225,6 @@
     "Form Factor": "PCIe card (dual-slot)"
   },
   {
-    "Model": "V100 FHHL",
-    "Shaders Max boost clock (MHz)": "1290",
-    "Memory Bus type": "HBM4",
-    "Memory Bus Width (bit)": "4096",
-    "Memory (GB)": "16",
-    "Memory Clock (MT/s)": "1620",
-    "Memory Bandwidth (GB/s)": "829.44",
-    "Half precision Processing Power (GFLOPS)": "105680",
-    "Single precision Processing Power (GFLOPS)": "13210",
-    "Double precision Processing Power (GFLOPS)": "6605",
-    "CUDA Compatibility": "7",
-    "Thermal Design Power (watts)": "250",
-    "Form Factor": "PCIe FHHL card"
-  },
-  {
     "Model": "A16",
     "Shaders Max boost clock (MHz)": "1695",
     "Memory Bus type": "GDDR6",
@@ -210,7 +240,7 @@
     "Form Factor": "PCIe card (dual-slot)"
   },
   {
-    "Model": "P100 16 GB",
+    "Model": "P100 16",
     "Shaders Max boost clock (MHz)": "1303",
     "Memory Bus type": "HBM2",
     "Memory Bus Width (bit)": "4096",
@@ -225,7 +255,7 @@
     "Form Factor": "PCIe card"
   },
   {
-    "Model": "P100 mezzanine",
+    "Model": "P100 SXM",
     "Shaders Max boost clock (MHz)": "1480",
     "Memory Bus type": "HBM2",
     "Memory Bus Width (bit)": "4096",
@@ -285,7 +315,7 @@
     "Form Factor": "PCIe card (single-slot)"
   },
   {
-    "Model": "P100 12 GB",
+    "Model": "P100 12",
     "Shaders Max boost clock (MHz)": "1303",
     "Memory Bus type": "HBM2",
     "Memory Bus Width (bit)": "3072",
@@ -328,21 +358,6 @@
     "CUDA Compatibility": "6.1",
     "Thermal Design Power (watts)": "250",
     "Form Factor": "PCIe card"
-  },
-  {
-    "Model": "M10",
-    "Shaders Max boost clock (MHz)": "?",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "512",
-    "Memory (GB)": "32",
-    "Memory Clock (MT/s)": "5188",
-    "Memory Bandwidth (GB/s)": "332",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "5289",
-    "Double precision Processing Power (GFLOPS)": "165.3",
-    "CUDA Compatibility": "5.2",
-    "Thermal Design Power (watts)": "225",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
   },
   {
     "Model": "T4",
@@ -405,21 +420,6 @@
     "Form Factor": "HHHL single slot PCIe card"
   },
   {
-    "Model": "M40",
-    "Shaders Max boost clock (MHz)": "1114",
-    "Memory Bus type": "GDDR5",
-    "Memory Bus Width (bit)": "384",
-    "Memory (GB)": "12 or 24",
-    "Memory Clock (MT/s)": "6000",
-    "Memory Bandwidth (GB/s)": "288",
-    "Half precision Processing Power (GFLOPS)": "No",
-    "Single precision Processing Power (GFLOPS)": "6844",
-    "Double precision Processing Power (GFLOPS)": "213.9",
-    "CUDA Compatibility": "5.2",
-    "Thermal Design Power (watts)": "250",
-    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)"
-  },
-  {
     "Model": "A2",
     "Shaders Max boost clock (MHz)": "1770",
     "Memory Bus type": "GDDR6",
@@ -463,6 +463,54 @@
     "CUDA Compatibility": "6.1",
     "Thermal Design Power (watts)": "75",
     "Form Factor": "PCIe card"
+  },
+  {
+    "Model": "M10",
+    "Shaders Max boost clock (MHz)": "?",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "512",
+    "Memory (GB)": "32",
+    "Memory Clock (MT/s)": "5188",
+    "Memory Bandwidth (GB/s)": "332",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "5289",
+    "Double precision Processing Power (GFLOPS)": "165.3",
+    "CUDA Compatibility": "5.2",
+    "Thermal Design Power (watts)": "225",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": "true"
+  },
+  {
+    "Model": "M40 12",
+    "Shaders Max boost clock (MHz)": "1114",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "12",
+    "Memory Clock (MT/s)": "6000",
+    "Memory Bandwidth (GB/s)": "288",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "6844",
+    "Double precision Processing Power (GFLOPS)": "213.9",
+    "CUDA Compatibility": "5.2",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": "true"
+  },
+  {
+    "Model": "M40 24",
+    "Shaders Max boost clock (MHz)": "1114",
+    "Memory Bus type": "GDDR5",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "24",
+    "Memory Clock (MT/s)": "6000",
+    "Memory Bandwidth (GB/s)": "288",
+    "Half precision Processing Power (GFLOPS)": "No",
+    "Single precision Processing Power (GFLOPS)": "6844",
+    "Double precision Processing Power (GFLOPS)": "213.9",
+    "CUDA Compatibility": "5.2",
+    "Thermal Design Power (watts)": "250",
+    "Form Factor": "Internal PCIe GPU (full-height, dual-slot)",
+    "Deprecated": "true"
   },
   {
     "Model": "S2070",
@@ -529,7 +577,7 @@
     "Deprecated": "true"
   },
   {
-    "Model": "S1070",
+    "Model": "S1070 500",
     "Shaders Max boost clock (MHz)": "—",
     "Memory Bus type": "GDDR3",
     "Memory Bus Width (bit)": "2048",
@@ -545,7 +593,7 @@
     "Deprecated": "true"
   },
   {
-    "Model": "S1070",
+    "Model": "S1070 400",
     "Shaders Max boost clock (MHz)": "—",
     "Memory Bus type": "GDDR3",
     "Memory Bus Width (bit)": "2048",

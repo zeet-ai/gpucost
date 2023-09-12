@@ -38,23 +38,31 @@ const getProviders = (model: string | null) => {
 
 const sortGpuData = (a: GpuRow, b: GpuRow) => {
   // gpu with available providers should be first
-  const providerCompare = (b.availableProviders ?? "").localeCompare(
-    a.availableProviders ?? "",
-  );
-  if (providerCompare !== 0) return providerCompare;
+  if (a.availableProviders && !b.availableProviders) return -1;
+  if (!a.availableProviders && b.availableProviders) return 1;
 
   // deprecated gpu should be last
   if (a.deprecated !== b.deprecated) return a.deprecated ? 1 : -1;
+
+  // sort by memory size
+  const memSizeCompare =
+    (Number(b.memorySize) || 0) - (Number(a.memorySize) || 0);
+  if (memSizeCompare !== 0) return memSizeCompare;
+
+  // sort by FLOP
+  const flopCompare =
+    (Number(b.processingPowerHalfPrecision) || 0) -
+    (Number(a.processingPowerHalfPrecision) || 0);
+  if (flopCompare !== 0) return flopCompare;
 
   // sort by memory bandwidth
   const memBandwidthCompare =
     (Number(b.memoryBandwidth) || 0) - (Number(a.memoryBandwidth) || 0);
   if (memBandwidthCompare !== 0) return memBandwidthCompare;
 
-  // sort by memory size
-  const memSizeCompare =
-    (Number(b.memorySize) || 0) - (Number(a.memorySize) || 0);
-  if (memSizeCompare !== 0) return memSizeCompare;
+  // nvlink first
+  if (a.model?.includes("NVLINK") && !b.model?.includes("NVLINK")) return -1;
+  if (!a.model?.includes("NVLINK") && b.model?.includes("NVLINK")) return 1;
 
   // sort by model name
   return (a.model ?? "").localeCompare(b.model ?? "");

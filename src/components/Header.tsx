@@ -93,7 +93,7 @@ export const Header = () => {
             <HeaderTabLink href="/" exact>
               GPUs
             </HeaderTabLink>
-            <HeaderTabLink href="/H100">Providers</HeaderTabLink>
+            <HeaderTabLink href="/H100 SXM">Providers</HeaderTabLink>
           </Flex>
           <Flex gap="3">
             <HeaderTabButton href="/about">About</HeaderTabButton>
