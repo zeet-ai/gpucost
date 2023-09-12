@@ -42,7 +42,7 @@
   {
     "CPUs": "0.1-12",
     "GPU model": "Nvidia A10G",
-    "GPU model Standardized": "A10G",
+    "GPU model Standardized": "A10",
     "GPUs": "1",
     "Instance": "Nvidia A10G",
     "Instance Memory": "0.1-170 GiB",

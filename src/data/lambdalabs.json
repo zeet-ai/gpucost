@@ -62,7 +62,7 @@
   {
     "CPUs": "30",
     "GPU model": "gpu_1x_a10",
-    "GPU model Standardized": "A10G",
+    "GPU model Standardized": "A10",
     "GPUs": "1",
     "Instance": "gpu_1x_a10",
     "Instance Memory": "200 GiB",
