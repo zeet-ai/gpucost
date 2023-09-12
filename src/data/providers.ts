@@ -3,6 +3,8 @@ import cwData from "./coreweave.json";
 import modalData from "./modal.json";
 import lambdaLabsData from "./lambdalabs.json";
 import runpodData from "./runpod.json";
+import azureData from "./azure.json";
+import ociData from "./oci.json";
 
 export enum ProviderKind {
   AWS = "AWS",
@@ -10,6 +12,8 @@ export enum ProviderKind {
   MODAL = "Modal",
   LAMBDALABS = "LambdaLabs",
   RUNPOD = "RunPod",
+  AZURE = "Azure",
+  OCI = "OCI",
 }
 
 export type GpuDetailRow = {
@@ -81,7 +85,23 @@ export const getGpuDetailData = () => {
     parseStandardRow(ProviderKind.RUNPOD),
   );
 
-  return [...rows, ...cwRows, ...modalRows, ...lambdaLabsRows, ...runpodRows];
+  const azureRows = (azureData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.AZURE),
+  );
+
+  const ociRows = (ociData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.OCI),
+  );
+
+  return [
+    ...rows,
+    ...cwRows,
+    ...modalRows,
+    ...lambdaLabsRows,
+    ...runpodRows,
+    ...azureRows,
+    ...ociRows,
+  ];
 };
 
 export const getUniqueGpuModels = () => {
