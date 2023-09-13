@@ -20,7 +20,6 @@ import {
 import {
   Cell,
   ColumnDef,
-  ColumnFiltersState,
   FilterFn,
   Header,
   SortingState,
@@ -201,14 +200,9 @@ const ColumnsMenu = <Row,>({
   );
 };
 
-const ClearFiltersButton = ({
-  columnFilters,
-  setColumnFilters,
-}: {
-  columnFilters: ColumnFiltersState;
-  setColumnFilters: React.Dispatch<React.SetStateAction<ColumnFiltersState>>;
-}) => {
-  const { globalQuery, setGlobalQuery } = useSearch();
+const ClearFiltersButton = () => {
+  const { globalQuery, setGlobalQuery, columnFilters, setColumnFilters } =
+    useSearch();
 
   const clearAllFilters = () => {
     setGlobalQuery("");
@@ -216,7 +210,7 @@ const ClearFiltersButton = ({
   };
 
   const filterCount = (): number => {
-    return columnFilters.length + (globalQuery ? 1 : 0);
+    return (columnFilters?.length ?? 0) + (globalQuery ? 1 : 0);
   };
 
   return (
@@ -253,10 +247,9 @@ export const Table = <Row,>({
   initialSortingState?: SortingState;
   leftActions?: React.ReactNode;
 }) => {
-  const { globalQuery, setGlobalQuery } = useSearch();
-  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
-    [],
-  );
+  const { globalQuery, setGlobalQuery, columnFilters, setColumnFilters } =
+    useSearch();
+
   const [sorting, setSorting] = React.useState<SortingState>(
     initialSortingState ?? [],
   );
@@ -358,10 +351,7 @@ export const Table = <Row,>({
               setColumnVisibility={setColumnVisibility}
               initialColumnVisibility={initialColumnVisibility}
             />
-            <ClearFiltersButton
-              columnFilters={columnFilters}
-              setColumnFilters={setColumnFilters}
-            />
+            <ClearFiltersButton />
             <Text fontSize="sm">{rows.length} results</Text>
           </Flex>
           <Flex gap="2">
