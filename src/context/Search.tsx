@@ -27,6 +27,8 @@ export const SearchProvider: React.FC<React.PropsWithChildren> = ({
 
   const getInitialColumnFilters = (): ColumnFiltersState => {
     const columnFilters = searchParams.get("columnFilters") ?? "";
+    if (!columnFilters) return [];
+
     const filters = columnFilters.split(",");
     return (
       filters.map((filter) => {
@@ -67,7 +69,7 @@ export const SearchProvider: React.FC<React.PropsWithChildren> = ({
       nextSearchParams.delete("q");
     }
 
-    if (columnFilters.length > 0) {
+    if (columnFilters.length > 0 && columnFilters[0].value) {
       nextSearchParams.set(
         "columnFilters",
         makeUrlSafeColumnFilters(columnFilters),
