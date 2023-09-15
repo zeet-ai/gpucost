@@ -5,6 +5,7 @@ import lambdaLabsData from "./lambdalabs.json";
 import runpodData from "./runpod.json";
 import azureData from "./azure.json";
 import ociData from "./oci.json";
+import gcpData from "./gcp.json";
 
 export enum ProviderKind {
   AWS = "AWS",
@@ -94,6 +95,9 @@ export const getGpuDetailData = () => {
     parseStandardRow(ProviderKind.OCI),
   );
 
+  const gcpRows = (gcpData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.GCP),
+  );
   return [
     ...rows,
     ...cwRows,
@@ -102,6 +106,7 @@ export const getGpuDetailData = () => {
     ...runpodRows,
     ...azureRows,
     ...ociRows,
+    ...gcpRows,
   ];
 };
 
