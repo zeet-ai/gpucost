@@ -83,7 +83,7 @@ export const GpuDetailTable = ({
           </Flex>
         ),
         header: "Region",
-        minSize: 150,
+        minSize: 250,
       }),
       columnHelper.accessor("windowsOnDemandCost", {
         header: "Windows On Demand Cost",
