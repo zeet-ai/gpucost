@@ -599,7 +599,7 @@
     "Memory (GB)": "48",
     "Memory Clock (MT/s)": "2505",
     "Memory Bandwidth (GB/s)": "960",
-    "Half precision Processing Power (GFLOPS)": "1457000",
+    "Half precision Processing Power (GFLOPS)": "728500",
     "Single precision Processing Power (GFLOPS)": "91100",
     "Double precision Processing Power (GFLOPS)": "",
     "CUDA Compatibility": "8.9",
