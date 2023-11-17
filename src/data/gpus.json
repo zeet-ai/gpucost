@@ -224,6 +224,22 @@
     "Deprecated": ""
   },
   {
+    "Model": "L40S",
+    "Shaders Max boost clock (MHz)": "2490",
+    "Memory Bus type": "GDDR6",
+    "Memory Bus Width (bit)": "384",
+    "Memory (GB)": "48",
+    "Memory Clock (MT/s)": "2250",
+    "Memory Bandwidth (GB/s)": "864",
+    "Half precision Processing Power (GFLOPS)": "733000",
+    "Single precision Processing Power (GFLOPS)": "366000",
+    "Double precision Processing Power (GFLOPS)": "",
+    "CUDA Compatibility": "8.9",
+    "Thermal Design Power (watts)": "300",
+    "Form Factor": "PCIe card (dual-slot)",
+    "Deprecated": ""
+  },
+  {
     "Model": "P100 SXM",
     "Shaders Max boost clock (MHz)": "1480",
     "Memory Bus type": "HBM2",

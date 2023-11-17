@@ -6,6 +6,7 @@ import runpodData from "./runpod.json";
 import azureData from "./azure.json";
 import ociData from "./oci.json";
 import gcpData from "./gcp.json";
+import vultrData from "./vultr.json";
 
 export enum ProviderKind {
   AWS = "AWS",
@@ -16,6 +17,7 @@ export enum ProviderKind {
   AZURE = "Azure",
   GCP = "GCP",
   OCI = "OCI",
+  Vultr = "Vultr",
 }
 
 export type GpuDetailRow = {
@@ -98,6 +100,10 @@ export const getGpuDetailData = () => {
   const gcpRows = (gcpData as Record<string, string | null>[]).map(
     parseStandardRow(ProviderKind.GCP),
   );
+
+  const vultrRows = (vultrData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.Vultr),
+  );
   return [
     ...rows,
     ...cwRows,
@@ -107,6 +113,7 @@ export const getGpuDetailData = () => {
     ...azureRows,
     ...ociRows,
     ...gcpRows,
+    ...vultrRows,
   ];
 };
 
