@@ -6,6 +6,7 @@ import {
   SiGooglecloud,
   SiMicrosoftazure,
   SiOracle,
+  SiVultr,
 } from "react-icons/si";
 import { MdOutlineQuestionMark } from "react-icons/md";
 
@@ -46,6 +47,9 @@ export const ProviderIcon = ({ provider }: { provider: ProviderKind }) => {
   }
   if (provider === ProviderKind.AZURE) {
     return <Icon as={SiMicrosoftazure} boxSize="1rem" />;
+  }
+  if (provider === ProviderKind.Vultr) {
+    return <Icon as={SiVultr} boxSize="1rem" alt="Vultr logo" />;
   }
   return <Icon as={MdOutlineQuestionMark} boxSize="1rem" />;
 };
