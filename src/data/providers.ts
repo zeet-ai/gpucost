@@ -7,6 +7,7 @@ import azureData from "./azure.json";
 import ociData from "./oci.json";
 import gcpData from "./gcp.json";
 import vultrData from "./vultr.json";
+import apidlyData from "./apidly.json";
 
 export enum ProviderKind {
   AWS = "AWS",
@@ -18,6 +19,7 @@ export enum ProviderKind {
   GCP = "GCP",
   OCI = "OCI",
   Vultr = "Vultr",
+  Apidly = "Apidly Cloud",
 }
 
 export type GpuDetailRow = {
@@ -104,6 +106,9 @@ export const getGpuDetailData = () => {
   const vultrRows = (vultrData as Record<string, string | null>[]).map(
     parseStandardRow(ProviderKind.Vultr),
   );
+  const apidlyRows = (apidlyData as Record<string, string | null>[]).map(
+    parseStandardRow(ProviderKind.Apidly),
+  );
   return [
     ...rows,
     ...cwRows,
@@ -114,6 +119,7 @@ export const getGpuDetailData = () => {
     ...ociRows,
     ...gcpRows,
     ...vultrRows,
+    ...apidlyRows,
   ];
 };
 
